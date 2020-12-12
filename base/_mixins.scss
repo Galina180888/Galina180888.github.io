@@ -1,0 +1,13 @@
+@mixin wh ($w, $h) {
+    width: $w;
+    height: $h;
+}
+@mixin flexible () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin bg () {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

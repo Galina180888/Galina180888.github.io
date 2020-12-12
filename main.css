@@ -1,0 +1,820 @@
+/* reset.css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+body h1, body h3, body h4, body h5, body h6, body header nav .navbar-logo, body header .header-button, body main .meet-partner .partner-batton-div .partner-button, body main .form .form-container .form-button, body footer ul, body footer .footer-menu-left {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+body p, body header nav .Log-in, body main .top-images .images .left-image .image-button, body main .top-images .images .middle-image .image-button, body main .top-images .images .right-image .image-button, body footer .footer-company-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+body h2, body main .form .form-text, body footer ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+  margin-top: 200px;
+}
+
+body h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #f2f2f2;
+}
+
+body h3 {
+  text-align: center;
+  font-size: 26px;
+  color: #444444;
+  margin-top: 50px;
+}
+
+body h4 {
+  font-size: 24px;
+  color: white;
+  margin-top: 30px;
+}
+
+body h5 {
+  font-size: 22px;
+  color: #666666;
+}
+
+body h6 {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+body header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-image: url(./img/Background.png);
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header nav .Log-in {
+  font-size: 14px;
+}
+
+body header .navbar-button {
+  font-size: 14px;
+  color: white;
+  width: 65px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+body header .button-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body header .header-button {
+  font-size: 14px;
+  color: white;
+  width: 225px;
+  height: 25px;
+  border: 1px solid #ff4e50;
+  border-radius: 10px;
+  background-color: #ff4e50;
+  margin-top: 30px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .top-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .top-images .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+body main .top-images .images .left-image, body main .top-images .images .middle-image, body main .top-images .images .right-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.33333%;
+  height: 400px;
+  background-image: url(./img/Step-1-image.png);
+  padding: 0 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body main .top-images .images .left-image .image-button, body main .top-images .images .middle-image .image-button, body main .top-images .images .right-image .image-button {
+  font-size: 10px;
+  color: white;
+  width: 50px;
+  height: 15px;
+  border: 1px solid #ff4e50;
+  border-radius: 10px;
+  background-color: #ff4e50;
+}
+
+body main .top-images .images .left-image .top-image-text, body main .top-images .images .middle-image .top-image-text, body main .top-images .images .right-image .top-image-text {
+  font-size: 14px;
+  color: white;
+  margin-top: 50px;
+}
+
+body main .top-images .images .middle-image {
+  background-image: url(./img/Step-2-image.png);
+}
+
+body main .top-images .images .right-image {
+  background-image: url(./img/Step-3-image.png);
+}
+
+body main .meet-partner {
+  width: 90%;
+}
+
+body main .meet-partner .partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .meet-partner .partner .left-partner, body main .meet-partner .partner .middle-partner-left, body main .meet-partner .partner .middle-partner-right, body main .meet-partner .partner .right-partner {
+  width: 221px;
+  height: 224px;
+}
+
+body main .meet-partner .partner .left-partner img, body main .meet-partner .partner .middle-partner-left img, body main .meet-partner .partner .middle-partner-right img, body main .meet-partner .partner .right-partner img {
+  width: 120px;
+  height: 120px;
+}
+
+body main .meet-partner .partner .left-partner .top-partner-text, body main .meet-partner .partner .middle-partner-left .top-partner-text, body main .meet-partner .partner .middle-partner-right .top-partner-text, body main .meet-partner .partner .right-partner .top-partner-text {
+  color: #666666;
+  font-size: 14px;
+}
+
+body main .meet-partner .partner-batton-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .meet-partner .partner-batton-div .partner-button {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #ff4e50;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #ff4e50;
+  margin-top: 30px;
+}
+
+body main .discover {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .discover .discover-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+body main .discover .discover-top .discover-top-left, body main .discover .discover-top .discover-top-middle, body main .discover .discover-top .discover-top-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.33333%;
+  height: 310px;
+  background-image: url(./img/Object.png);
+  padding: 15px;
+}
+
+body main .discover .discover-top .discover-top-middle {
+  background-image: url(./img/Object-1.png);
+}
+
+body main .discover .discover-top .discover-top-bottom {
+  background-image: url(./img/Object-2.png);
+}
+
+body main .discover .discover-middle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .discover .discover-middle .discover-middle-left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.33333%;
+  height: 310px;
+  background-image: url(./img/Object-3.png);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .discover .discover-middle .discover-middle-right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 66.66667%;
+  height: 310px;
+  background-image: url(./img/Object-4.png);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .discover .discover-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .discover .discover-bottom .discover-bottom-left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 66.66667%;
+  height: 310px;
+  background-image: url(./img/Object-5.png);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .discover .discover-bottom .discover-bottom-right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.33333%;
+  height: 310px;
+  background-image: url(./img/Object-6.png);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .form {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .form .form-text {
+  margin: 50px 0;
+  color: #666666;
+  font-size: 18px;
+}
+
+body main .form .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+body main .form .form-container .form-input {
+  width: 299px;
+  height: 40px;
+}
+
+body main .form .form-container .form-button {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #ff4e50;
+  border-radius: 10px;
+  background-color: #ff4e50;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px;
+  width: 100%;
+  height: 224px;
+  border-top: 1px solid #ff4e50;
+}
+
+body footer .footer-company-name {
+  width: 25%;
+  color: #ff4e50;
+  font-size: 16px;
+}
+
+body footer ul {
+  width: 25%;
+  font-size: 14px;
+  color: #444444;
+}
+
+body footer ul li {
+  color: #999999;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+body footer .footer-menu-left {
+  width: 25%;
+  font-size: 14px;
+  color: #444444;
+}
+
+body footer .footer-logo {
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  body main .top-images .images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .top-images .images .left-image, body main .top-images .images .middle-image, body main .top-images .images .right-image {
+    width: 236px;
+  }
+  body main .top-images .images .left-image .top-image-text, body main .top-images .images .middle-image .top-image-text, body main .top-images .images .right-image .top-image-text {
+    margin-top: 0;
+  }
+  body main .meet-partner {
+    width: 492px;
+  }
+  body main .meet-partner .partner {
+    width: 100%;
+  }
+  body main .meet-partner .partner .left-partner, body main .meet-partner .partner .middle-partner-left, body main .meet-partner .partner .middle-partner-right, body main .meet-partner .partner .right-partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 232px;
+    height: 205px;
+  }
+  body main .discover {
+    width: 100%;
+  }
+  body main .discover .discover-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .form {
+    width: 100%;
+  }
+  body footer {
+    width: 100%;
+    height: auto;
+  }
+  body footer .footer-company-name {
+    width: 50%;
+  }
+  body footer ul {
+    width: 50%;
+  }
+  body footer .footer-menu-left {
+    width: 50%;
+    margin-top: 30px;
+  }
+  body footer .footer-logo {
+    width: 50%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body h1 {
+    font-size: 1em;
+    margin-top: 100px;
+  }
+  body h2 {
+    font-size: 18px;
+  }
+  body header {
+    height: 540px;
+  }
+  body header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header nav .navbar-logo {
+    font-size: 20px;
+  }
+  body main .top-images {
+    width: 100%;
+  }
+  body main .top-images .images .left-image, body main .top-images .images .middle-image, body main .top-images .images .right-image {
+    width: 300px;
+    height: 240px;
+  }
+  body main .meet-partner {
+    width: 100%;
+  }
+  body main .meet-partner .partner .left-partner, body main .meet-partner .partner .middle-partner-left, body main .meet-partner .partner .middle-partner-right, body main .meet-partner .partner .right-partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .discover {
+    width: 100%;
+  }
+  body main .discover .discover-top .discover-top-left, body main .discover .discover-top .discover-top-middle, body main .discover .discover-top .discover-top-bottom {
+    width: 100%;
+    height: 207px;
+  }
+  body main .discover .discover-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .discover .discover-middle .discover-middle-left {
+    width: 100%;
+    height: 207px;
+  }
+  body main .discover .discover-middle .discover-middle-right {
+    width: 100%;
+    height: 207px;
+  }
+  body main .discover .discover-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .discover .discover-bottom .discover-bottom-left {
+    width: 100%;
+    height: 207px;
+  }
+  body main .discover .discover-bottom .discover-bottom-right {
+    width: 100%;
+    height: 207px;
+  }
+  body main .form {
+    width: 100%;
+  }
+  body main .form .form-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .form .form-container .form-input {
+    width: 280px;
+  }
+  body main .form .form-container .form-button {
+    margin-top: 25px;
+    width: 280px;
+  }
+  body footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+  }
+  body footer .footer-company-name {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  body footer ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  body footer .footer-menu-left {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  body footer .footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
